@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  border-bottom: 2px solid rgb(216, 216, 216);
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.logo {
+  width: 150px;
+  padding: 20px;
+}
+
+.collage {
+  display: block;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.main-text {
+  
+  margin: 30px;
+  margin-right: 40%;
+}
+
+.card-container {
+  width: 175px;
+  font-size: 12px;
+}
+
+.tyler {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  width: 14px;
+}
