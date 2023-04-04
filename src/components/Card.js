@@ -1,19 +1,28 @@
 import React from "react";
-import Tyler from "../images/107479269.jpeg";
 import Star from "../images/star.png";
+import Tyler from "../images/107479269.jpeg";
 
-export default function Card() {
+export default function Card(props) {
+  console.log(props);
   return (
     <div className="card-container">
-      <img src={Tyler} alt="tyler" className="tyler" width="200px" />
+      {/* <img src={`../images/${props.img}`} alt="tyler" className="tyler" width="200px" />  Can't get image to work!*/}
+      <img
+        src={Tyler}
+        alt="tyler"
+        className="tyler"
+        width="200px"
+      />
       <div className="card-stats">
         <img src={Star} alt="star" className="star" width="30px" />
-        <span>5.0</span>
-        <span className="gray">(6) • </span>
-        <span className="gray">USA</span>
+        <span>{props.rating}</span>
+        <span className="gray">({props.reviewCount}) • </span>
+        <span className="gray">{props.country}</span>
       </div>
-      <p>Chilling with Tyler</p>
-      <p><b>From $20</b> / person</p>
+      <p>{props.title}</p>
+      <p>
+        <b>From ${props.price}</b> / person
+      </p>
     </div>
   );
 }
