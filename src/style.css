@@ -33,9 +33,16 @@ body {
   margin-right: 40%;
 }
 
+.card-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .card-container {
   width: 175px;
   font-size: 12px;
+  
 }
 
 .tyler {
