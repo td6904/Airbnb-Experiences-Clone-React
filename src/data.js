@@ -9,7 +9,7 @@ export default [
       rating: 5.0,
       reviewCount: 6,
     },
-    location: "online",
+    location: "Online",
     openSpots: 0,
   },
   {
@@ -22,7 +22,7 @@ export default [
       rating: 4.5,
       reviewCount: 2,
     },
-    location: "online",
+    location: "Online",
     openSpots: 37,
   },
   {
@@ -35,8 +35,8 @@ export default [
       rating: 3.0,
       reviewCount: 9,
     },
-    location: "online",
-    openSpots: 2,
+    location: "At school",
+    openSpots: 0,
   },
   {
     id: 4,
@@ -48,7 +48,7 @@ export default [
       rating: 5.0,
       reviewCount: 6,
     },
-    location: "online",
+    location: "Tennis court",
     openSpots: 90,
   },
 ];

@@ -8,24 +8,13 @@ import data from "./data.js";
 
 export default function App() {
   const cardData = data.map((part) => {
-    return (
-      <Card
-        title={part.title}
-        price={part.price}
-        coverImg={part.coverImg}
-        rating={part.stats.rating}
-        reviewCount={part.stats.reviewCount}
-        location={part.location}
-      />
-    );
+    return <Card {...part} />;
   });
   return (
     <>
       <Navbar />
       <Hero />
-      <div className="card-section">
-      {cardData}
-      </div>
+      <div className="card-section">{cardData}</div>
     </>
   );
 }
