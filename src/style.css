@@ -25,7 +25,6 @@ body {
   display: block;
   margin: auto;
   padding-top: 40px;
-  width: 90%;
 }
 
 .main-text {
@@ -70,4 +69,10 @@ body {
   padding: 5px 7px;
   border-radius: 2px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 410px) {
+  .collage {
+    width: 90%;
+  }
 }
