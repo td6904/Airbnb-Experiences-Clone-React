@@ -30,7 +30,7 @@ const data =  [
     title: "Life lessons with Darren Fletcher",
     description: "Darren Fletcher description here",
     price: 50,
-    coverImg: "https://imgs.search.brave.com/stDWe77SX6H9VFlTJ6JMCzG4GqxnfQ5GBTg8Nv0QjYI/rs:fit:823:1024:1/g:ce/aHR0cHM6Ly93d3cx/LnBpY3R1cmVzLnpp/bWJpby5jb20vZ2kv/Q2hlbHNlYSt2K1N0/b2tlK0NpdHkrUHJl/bWllcitMZWFndWUr/VXZLdWZ2aTlDeU54/LmpwZw",
+    coverImg: "https://i.redd.it/ikcnk1rzdnl21.jpg",
     stats: {
       rating: 3.0,
       reviewCount: 9,
